@@ -1,0 +1,9 @@
+#How to simulate do..while loop in Python
+# The do..while loop is not available in Python. But you can simulate it using while loop.
+
+a=5
+while True:
+    print(a)
+    a+=1
+    if a==10:
+        break
